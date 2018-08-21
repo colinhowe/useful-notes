@@ -1,6 +1,6 @@
 Compiling vim on Ubuntu with Ruby and a GUI.
 
-sudo apt-get install gnome-devel
+sudo apt-get install gnome-devel ruby ruby-dev libxmu-dev libxmu-headers
 git clone --depth 1 https://github.com/vim/vim.git
 cd vim
 ./configure --enable-rubyinterp --enable-gui  --with-features=huge
